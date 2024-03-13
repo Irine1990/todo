@@ -1,13 +1,36 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.HeaderColor {
+  color: rgb(242, 47, 106);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: underline;
+  font-weight: bolder;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+input {
+  border: 2px solid rgb(231, 24, 89);
+  border-radius: 10px;
+  height: 50px;
+  width: 200px;
+}
+
+button {
+  background-color: rgb(243, 9, 98);
+  color: white;
+  padding: 10px;
+  width: 20vh;
+  border-radius: 10px;
+  font-weight: bolder;
+}
+
+.card {
+  background-color: rgb(251, 166, 199);
+  padding: 10px;
+  border: 2px solid black;
+  gap: 10px;
+  display: flex;
+  row-gap: 10px;
+}
+
+.content {
+  font-size: 20px;
+  text-decoration: underline;
 }
